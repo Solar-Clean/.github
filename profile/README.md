@@ -7,4 +7,4 @@ Documentation
 2. [Installation](https://github.com/Solar-Clean/.github#installation)
 3. [Workflow](https://github.com/Solar-Clean/.github#workflow)
 4. [Usage](https://github.com/Solar-Clean/.github#workflow)
-4.1 [Drone](https://github.com/Solar-Clean/.github#drone)
+5. [Drone](https://github.com/Solar-Clean/.github#drone)
