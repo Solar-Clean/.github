@@ -2,14 +2,7 @@ Welcome to the _Github_ organization of
 
 # Solar Swarm Clean
 
-### Prerequisite
-
-__TODO__
-
-- Working git installation
-- Ubuntu 20.04
-- Python version should be 3.8 or higher
-- Pip should use Python3
+### [Prerequisite](https://github.com/Solar-Clean/.github#prerequisite)
 
 ### Installation
 
