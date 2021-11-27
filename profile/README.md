@@ -11,6 +11,3 @@ Welcome to the _Github_ organization of
 ### [Usage](https://github.com/Solar-Clean/.github#workflow)
 
 #### [Drone](https://github.com/Solar-Clean/.github#drone)
-
-
-__TODO__
