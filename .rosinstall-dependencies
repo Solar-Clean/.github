@@ -1,0 +1,6 @@
+## Dependencies
+
+- git:
+    local-name: ../dependencies/ardupilot
+    uri: git@github.com:ArduPilot/ardupilot.git
+    version: master

@@ -1,0 +1,16 @@
+## Default
+
+- git:
+    local-name: ../database
+    uri: git@github.com:Solar-Clean/database.git
+    version: master
+
+- git:
+    local-name: ../xbee_interface
+    uri: git@github.com:Solar-Clean/x_bee_interface.git
+    version: master
+
+- git:
+    local-name: ../bringup
+    uri: git@github.com:Solar-Clean/bringup.git
+    version: master

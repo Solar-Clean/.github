@@ -4,7 +4,7 @@ Welcome to the _Github_ organization of
 
 ### Prerequisite
 
-__TODO__
+**TODO**
 
 - Working git installation
 - Ubuntu 20.04
@@ -26,17 +26,17 @@ but naming the subdirectory `src` is mandatory for _ROS_.
 
 #### 2)
 
-Now, as you should be in `src` you can clone the _solar-swarm-utils_ repository. Therefore, run:
+Now, as you should be in `src` you can clone the _.github_ repository. Therefore, run:
 
 ```bash
-git clone git@github.com:Solar-Clean/solar-swarm-utils.git
+git clone git@github.com:Solar-Clean/.github.git
 ```
 
 This requires you to have git installed and ssh set up. If you don't have ssh set up you can use the https link instaed, which you can find in the repository.
 
 #### 3)
 
-Use `cd solar-swarm-utils` to go into the folder with the repository created in the previous step.
+Use `cd .github` to go into the folder with the repository created in the previous step.
 
 You can now start the actual installation. Run:
 
@@ -50,10 +50,11 @@ to make the installation script executable. After that, you should execute it by
 ./install.sh *args
 ```
 
-where args is either _drone_, _roboter_ or both. 
+where args is either _drone_, _roboter_ or both.
 
-The installation script will then install `ros-noetic-desktop-full` and a lot of required dependencies. Additionally poetry, a python package manager, is installed, which will manage virtual python environments. 
+The installation script will then install `ros-noetic-desktop-full` and a lot of required dependencies. Additionally poetry, a python package manager, is installed, which will manage virtual python environments.
 During the installation multiple aliases are added to your shell aliases file:
+
 - `make_drone` automatically calls catkin_make in the workspace directory
 - `workon_solarswarm` which will direct you inside the workspace and start the poetry shell
 - `solarswarm` sources the ros setup script and adds the source directory to your ROS_PACKAGE_PATH
@@ -68,5 +69,4 @@ After you have changed any files you should call `make_drone` to compile the who
 
 #### Drone
 
-
-__TODO__
+**TODO**
