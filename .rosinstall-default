@@ -7,7 +7,7 @@
 
 - git:
     local-name: ../xbee_interface
-    uri: git@github.com:Solar-Clean/x_bee_interface.git
+    uri: git@github.com:Solar-Clean/xbee_interface.git
     version: master
 
 - git:
