@@ -55,7 +55,7 @@ where args is either _drone_, _roboter_ or both.
 The installation script will then install `ros-noetic-desktop-full` and a lot of required dependencies. Additionally poetry, a python package manager, is installed, which will manage virtual python environments.
 During the installation multiple aliases are added to your shell aliases file:
 
-- `make_drone` automatically calls catkin_make in the workspace directory
+- `make_solarswarm` automatically calls catkin_make in the workspace directory
 - `workon_solarswarm` which will direct you inside the workspace and start the poetry shell
 - `solarswarm` sources the ros setup script and adds the source directory to your ROS_PACKAGE_PATH
 
