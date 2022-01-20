@@ -92,3 +92,4 @@ echo "alias workon_solarswarm='cd ${PWD} && poetry shell'" >> ~/.${CURSHELL}_ali
 echo "alias solarswarm='source ${PWD}/devel/setup.sh'" >> ~/.${CURSHELL}_aliases
 
 source ~/.${CURSHELL}rc
+
