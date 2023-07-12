@@ -50,6 +50,9 @@ sudo rosdep init
 rosdep update
 
 pip install poetry
+
+echo "export PATH="~/.locale/bin:$PATH" >> ~/.${CURSHELL}rc
+
 source ~/.${CURSHELL}rc
 source ~/.profile
 
