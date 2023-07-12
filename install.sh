@@ -41,7 +41,10 @@ else
   exit 1
 fi
 
-sudo apt-get -y install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-pip
+sudo apt-get -y install \
+  python3-rosdep python3-rosinstall python3-rosinstall-generator \
+  python3-wstool build-essential python3-pip \
+  ros-noetic-mavros \ python-rospkg
 
 sudo rosdep init 
 rosdep update

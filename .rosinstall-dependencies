@@ -1,16 +1,6 @@
 ## Dependencies
 
 - git:
-    local-name: ../dependencies/ardupilot
-    uri: git@github.com:ArduPilot/ardupilot.git
-    version: master
-
-- git:
-    local-name: ../dependencies/ardupilot_gazebo
-    uri: git@github.com:khancyr/ardupilot_gazebo.git
-    version: master
-
-- git:
-    local-name: ../dependencies/utils
+    local-name: ../utils
     uri: git@github.com:Solar-Clean/utils.git
     version: master
